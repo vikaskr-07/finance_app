@@ -1,24 +1,42 @@
-A Spring Boot application for tracking financial expenses with real-time event processing using Apache Kafka.
+# AI-Powered Personal Finance Management Platform
+
+A microservices-based platform for tracking expenses, managing budgets, and providing AI-driven financial insights. Built with Spring Boot, Kafka, Docker, Kubernetes, and React.js.
 
 ## Features
 
-- REST API for expense management
-- PostgreSQL database integration
-- Real-time event streaming with Kafka
-- Dockerized deployment
-- Consumer service for processing expense events
+- **Expense Tracking**: Add and categorize expenses.
+- **Budget Management**: Set budgets and get alerts.
+- **AI Insights**: Get personalized financial advice.
+- **Real-Time Notifications**: Receive alerts for large transactions.
+- **Fraud Detection**: Detect suspicious transactions using ML.
+
+## Tech Stack
+
+- **Backend**: Spring Boot (Java)
+- **Frontend**: React.js (JavaScript)
+- **Database**: PostgreSQL (SQL), MongoDB (NoSQL)
+- **Event Streaming**: Apache Kafka
+- **Containerization**: Docker
+- **Orchestration**: Kubernetes (Minikube/AWS EKS)
+- **CI/CD**: Jenkins
+- **Monitoring**: Grafana + Prometheus
+- **Cloud**: AWS (S3, EC2, RDS)
 
 ## Prerequisites
 
-- Java 17
-- Docker Desktop (with WSL2 if on Windows)
-- Maven 3.8+
-- PostgreSQL 13
-- Kafka (included in Docker setup)
+- Java JDK 17
+- Maven
+- Docker
+- Node.js (for frontend)
+- Kubernetes (Minikube for local development)
+- Kafka (Docker)
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
+### Clone the Repository
+
 ```bash
 git clone https://github.com/vikaskr-07/finance_app.git
-cd finance-expense-tracker
+cd finance_app
+
+
